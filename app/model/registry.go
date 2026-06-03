@@ -286,8 +286,8 @@ var registry = map[TradeType]TradeTypeConf{
 		ExplorerFmt: "https://bscscan.com/tx/%s",
 		EndpointKey: RpcEndpointBsc,
 	},
-	TonTon: {
-		Alias:       "Ton・Ton",
+	TonGram: {
+		Alias:       "Ton・Gram",
 		NetworkName: "Ton",
 		Network:     conf.Ton,
 		Crypto:      TON,
